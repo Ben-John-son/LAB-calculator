@@ -1,3 +1,117 @@
 body {
   background-image: url("https://media.istockphoto.com/id/1265965042/vector/math-theory-mathematics-calculus-on-class-chalkboard-algebra-and-geometry-science.jpg?s=612x612&w=0&k=20&c=T97ylW_6ht1STS_MRw4YrDg0Kt3HuoXEOQI9vQFfin8=");
+  display: flex;
+  justify-content: center;
+}
+
+.shell {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 505px;
+  background-color: black;
+  /* border-image: linear-gradient(to right, rgb(112, 112, 243), blue) 1; */
+  border-width: 4px;
+  border-style: solid;
+  margin-top: 100px;
+}
+
+.bar {
+  border: 2px solid black;
+  width: auto;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.856),
+    rgba(255, 255, 255, 0.582)
+  );
+  height: 8vh;
+  border-radius: 4%;
+  margin-bottom: 4px;
+}
+
+#aC {
+  width: 49%;
+}
+
+output {
+  background-image: linear-gradient(white rgba(255, 255, 255, 0.664));
+  width: 380px;
+  height: 200px;
+  border-radius: 4%;
+  font-size: 45px;
+  font-family: sans-serif;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40vh;
+  margin-top: 2px;
+}
+
+button {
+  width: 24.003%;
+  height: 12vh;
+  background-color: grey;
+  color: white;
+  border-radius: 3px;
+  margin: 0;
+  font-size: 25px;
+}
+
+#zero {
+  width: 74%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.op {
+  background-image: linear-gradient(rgb(252, 194, 86), rgb(189, 123, 2));
+  color: white;
+}
+
+.op:hover {
+  background-image: linear-gradient(rgba(241, 241, 135, 0.753), rgba(163, 163, 66, 0.733), rgba(145, 145, 37, 0.692));
+}
+
+.op:active {
+  background-image: linear-gradient(rgb(130, 136, 43), rgb(57, 58, 0));
+}
+
+.num {
+  background-image: linear-gradient(rgb(175, 174, 174), rgb(61, 61, 61));
+}
+
+output {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.num:hover {
+  background-image: linear-gradient(rgb(133, 130, 130), rgb(32, 32, 32));
+  cursor: pointer;
+}
+
+.opEqual {
+  background-image: linear-gradient(rgb(252, 194, 86), rgb(189, 123, 2));
+}
+
+.opEqual:hover {
+  cursor: pointer;
+  background-image: linear-gradient(rgba(241, 241, 135, 0.753), rgba(163, 163, 66, 0.733), rgba(145, 145, 37, 0.692));
+}
+
+.num:active {
+  background-image: linear-gradient(rgb(126, 119, 126), rgb(46, 2, 46));
+}
+
+.opEqual:active {
+  background-image: linear-gradient(rgb(130, 136, 43), rgb(57, 58, 0));
 }
