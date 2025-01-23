@@ -1,22 +1,21 @@
-console.log("hello")
+console.log("hello");
 // let numButt = document.querySelectorAll(".num")
-let put = document.getElementById("putput")
-let equal = docment.getElementsByClassName("opEqaul")
+let put = document.getElementById("putput");
+let equal = docment.getElementsByClassName("opEqaul");
 let numNum = document.getElementById("tWo").innerHTML;
-let outty = document.querySelectorAll(".num")
-let newOut = outty.value
-let buttt = document.getElementById("butt")
-let currentInput = ""
-let operator = ""
-let firstOperand = ""
+let outty = document.querySelectorAll(".num");
+let newOut = outty.value;
+let buttt = document.getElementById("butt");
+let currentInput = "";
+let operator = "";
+let firstOperand = "";
 
-
-function addNum () {
-   return numButt + numButt
+function addNum() {
+  return numButt + numButt;
 }
 
 function equals() {
-return put.innerHTML = addNum();
+  put.value = eval(put.value)
 }
 
 function clearAll() {
@@ -24,9 +23,20 @@ function clearAll() {
 }
 
 function displayNum(input) {
-put.value += input
-
+  put.value += input;
 }
+
+// function plus() {
+// let sum = 0;
+// let val = put.value
+
+
+//  sum += val
+//  put.innerHTML = sum
+ 
+// }
+
+
 
 const numberButtons = document.querySelectorAll(".num");
 numberButtons.forEach((button) => {
